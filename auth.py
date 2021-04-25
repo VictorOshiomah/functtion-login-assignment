@@ -1,10 +1,14 @@
 import random
 
-database = {}
+database = {
+    [5883993000:'Victor','Oshiomah' , 'vastvic@gmail.com', 0]
+    [6783992990:'Mike' ,'Aduragbemi' ,'mikeadura@gmaail.com', 20]
+    [4467389930:'Becky', 'Omons' , 'beckyomons1@gmail.com', 0]
+}
 
 def init():
 
-    print("Welcome to Access Bank Plc")
+    print("Welcome to Masters Bank Intl")
 
     have_an_account = int(input("Do you have an account with us: 1 (Yes) 2 (No) \n"))
 
